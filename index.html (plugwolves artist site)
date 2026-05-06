@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlugWolves | Rural ft NGRO23</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+
+/* NAV */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+}
+
+.logo {
+    color: #00ffcc;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+}
+
+.hero img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.hero-text {
+    max-width: 500px;
+    margin-left: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #25D366;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* SECTION */
+section {
+    padding: 40px;
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.price {
+    color: #00ffcc;
+    font-size: 20px;
+}
+
+/* REVIEWS */
+.review {
+    background: #111;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* FLOAT BUTTON */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">PlugWolves</div>
+</header>
+
+<section class="hero">
+
+    <img src="IMG-20260506-WA0007.jpg">
+
+    <div class="hero-text">
+        <h1>Rural ft NGRO23</h1>
+        <p>
+        PlugWolves brings a clean, confident sound and visual identity.
+        This platform showcases the music, services, and creative vision.
+        </p>
+
+        <audio controls>
+            <source src="rural_ft_NGRO23.m4a">
+        </audio>
+
+        <br>
+
+        <a class="btn"
+        href="https://wa.me/27711012818?text=Hi%20I%20want%20to%20work%20with%20PlugWolves">
+        Contact on WhatsApp
+        </a>
+    </div>
+
+</section>
+
+<section>
+    <h2>Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Beats</h3>
+            <p class="price">R500</p>
+            <p>Custom beats for artists ready to record and release.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cover Arts</h3>
+            <p class="price">R250</p>
+            <p>Professional cover designs that make your music stand out.</p>
+        </div>
+
+        <div class="card">
+            <h3>Artist Websites</h3>
+            <p class="price">R1500</p>
+            <p>Full websites for artists to showcase music and brand.</p>
+        </div>
+
+        <div class="card">
+            <h3>Maintenance</h3>
+            <p class="price">R500/month</p>
+            <p>Keep your website updated and running smoothly.</p>
+        </div>
+
+    </div>
+
+    <a class="btn"
+    href="https://wa.me/27711012818?text=Hi%20I%20want%20to%20buy%20a%20service">
+    Book a Service
+    </a>
+
+</section>
+
+<section>
+    <h2>Why This Matters</h2>
+    <p>
+    PlugWolves is not just about music. It's about building a platform
+    where artists can grow, earn, and be seen professionally.
+    These services help local creatives turn talent into income and build real brands.
+    </p>
+</section>
+
+<section>
+    <h2>Reviews</h2>
+
+    <div class="review">⭐⭐⭐⭐⭐ "This sound is clean and professional."</div>
+    <div class="review">⭐⭐⭐⭐⭐ "The website makes the artist look serious."</div>
+    <div class="review">⭐⭐⭐⭐⭐ "I would definitely buy beats from here."</div>
+
+</section>
+
+<!-- FLOAT BUTTON -->
+<a href="https://wa.me/27711012818?text=Hi%20I%20want%20to%20work%20with%20PlugWolves"
+class="whatsapp-float">
+💬
+</a>
+
+</body>
+</html>
